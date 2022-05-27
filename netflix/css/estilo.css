@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.background{
+  position: absolute;
+  width:1366px ;
+  height: 700px;
+  background: radial-gradient(#0000, rgba(238, 8, 8, 0.931));
+}
+.cabecalho{
+  position: relative;
+  display: flex;
+  background: url("../img/fundo.jpg") center;
+  width:1366px;
+  height: 700px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.cabecalho h1{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+.cabecalho p{
+  margin: 20px;
+  text-align: center;
+}
