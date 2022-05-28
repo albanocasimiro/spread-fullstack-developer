@@ -12,7 +12,6 @@ body{
 }
 .cabecalho{
   display: flex;
-
   width:1280px;
   height: 700px;
   flex-direction: column;
@@ -50,4 +49,26 @@ body{
   font-size: 3em;
   font-weight: bold;
   color:red;
+}
+.button{
+  display: flex;
+}
+.button input{
+  border: none;
+  padding: 3px;
+  width:400px;
+  height: 50px;
+}
+.button button{
+  cursor:pointer;
+  font-size: 1.25em;
+  border: none;
+  width: 100px;
+  background-color: red;
+  color: white;
+}
+.tv{
+  width: 100%;
+  height: 200px;
+  background-color: black;
 }
